@@ -7,7 +7,6 @@ let dataInicial = [];
 export default function TodoList() {
   let myLocal = window.localStorage.getItem("todoList");
   myLocal = JSON.parse(myLocal);
-  console.log(myLocal);
   if (myLocal !== null) {
     dataInicial = myLocal;
   }

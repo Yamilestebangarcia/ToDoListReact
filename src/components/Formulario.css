@@ -50,3 +50,14 @@
   border: var(--bordeOscuro);
   outline-style: none;
 }
+@media only screen and (max-width: 390px) {
+  .todolist-h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 0;
+  }
+  .form-titulo,
+  .form-descripcion {
+    width: 250px;
+  }
+}

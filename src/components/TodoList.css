@@ -7,3 +7,9 @@
   font-size: 3rem;
   border-bottom: solid 2px #000000;
 }
+@media only screen and (max-width: 390px) {
+  .todolist-h1 {
+    width: 11rem;
+    font-size: 2rem;
+  }
+}

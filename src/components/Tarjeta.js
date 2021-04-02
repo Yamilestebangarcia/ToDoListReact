@@ -1,5 +1,7 @@
 import React from "react";
 import "./Tarjeta.css";
+import editarImg from "../img/editar.svg";
+import cerrarImg from "../img/cerrar.svg";
 export default function Tarjeta({
   id,
   titulo,
@@ -14,13 +16,13 @@ export default function Tarjeta({
       <p className="tarjeta-p">{descripcion}</p>
       <img
         className="tarjeta-cerrar"
-        src="./img/cerrar.svg"
+        src={cerrarImg}
         alt="cerrar"
         onClick={(e) => eliminar(id)}
       />
       <img
         className="tarjeta-editar"
-        src="./img/editar.svg"
+        src={editarImg}
         alt="editar"
         onClick={(e) => setEditData(el)}
       />
