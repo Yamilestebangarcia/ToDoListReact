@@ -1,0 +1,7 @@
+:root {
+  --amarillo: #f7f77e59;
+  --letra: "Zilla Slab", serif;
+  --titulo: "Train One", cursive;
+  --bordeClaro: 1px solid rgba(0, 0, 0, 0.3);
+  --bordeOscuro: 1px solid rgba(0, 0, 0, 0.9);
+}

@@ -1,0 +1,9 @@
+.todolist-h1 {
+  width: 16rem;
+  font-family: var(--titulo);
+  font-weight: 400;
+  margin: 50px auto 0 auto;
+  margin-top: 50px;
+  font-size: 3rem;
+  border-bottom: solid 2px #000000;
+}

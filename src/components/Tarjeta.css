@@ -1,0 +1,41 @@
+.tarjeta {
+  min-width: 200px;
+  width: 200px;
+  height: 200px;
+  background-color: var(--amarillo);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin-bottom: 20px;
+}
+.tarjeta-h3 {
+  padding: 18px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: var(--letra);
+  font-size: 1.3rem;
+}
+.tarjeta-p {
+  padding: 0 8px;
+  letter-spacing: 2px;
+  font-family: var(--letra);
+  font-weight: 600;
+}
+.tarjeta-p::first-letter {
+  text-transform: capitalize;
+}
+.tarjeta-editar {
+  width: 20px;
+  margin: 18px 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.tarjeta-cerrar {
+  width: 20px;
+  margin: 18px 8px;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}

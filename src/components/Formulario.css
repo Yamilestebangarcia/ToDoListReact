@@ -1,0 +1,52 @@
+.todolist-h2 {
+  margin-left: 8%;
+  margin-bottom: 30px;
+  font-family: var(--titulo);
+  font-weight: 400;
+  font-size: 2rem;
+}
+.form {
+  margin-left: 8%;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 17px;
+}
+.form-titulo,
+.form-descripcion {
+  width: 340px;
+  margin-bottom: 20px;
+  padding: 3px;
+  border: var(--bordeClaro);
+  border-radius: 3px;
+}
+.form-titulo::placeholder,
+.form-descripcion::placeholder {
+  color: black;
+  font-size: 1rem;
+  font-family: var(--letra);
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.form-btn {
+  width: 150px;
+  font-size: 1rem;
+  font-family: var(--letra);
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: white;
+  padding: 3px;
+  border: var(--bordeClaro);
+  border-radius: 3px;
+}
+.form-titulo:focus,
+.form-descripcion:focus,
+.form-btn:focus {
+  border: var(--bordeOscuro);
+  outline-style: none;
+}

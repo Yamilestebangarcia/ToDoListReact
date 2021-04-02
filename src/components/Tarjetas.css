@@ -1,0 +1,8 @@
+.tarjetas {
+  margin: 60px 8% 0 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-gap: 2rem;
+  justify-content: space-evenly;
+  align-content: center;
+}
